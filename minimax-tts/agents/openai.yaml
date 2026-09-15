@@ -1,0 +1,5 @@
+interface:
+  display_name: "Own Voice Narration"
+  short_description: "Shared narration: OmniVoice, MiniMax, then free Edge TTS"
+policy:
+  allow_implicit_invocation: true

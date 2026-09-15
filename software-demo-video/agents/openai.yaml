@@ -1,0 +1,4 @@
+interface:
+  display_name: "Software Demo Video"
+  short_description: "Operate app tasks or record demos with authorized narration"
+  default_prompt: "Use $software-demo-video to operate a Mac app, record an isolated-window demonstration with semantic action timing, add the user-selected authorized narration voice, and deliver a verified tutorial video."

@@ -1,0 +1,27 @@
+{
+  "version": "software-demo-video.edit-spec/v1",
+  "output": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "audio_sample_rate": 32000,
+    "filename": "demo.mp4"
+  },
+  "source_provenance": [
+    {"id": "fixture", "label": "Synthetic fixture", "level": "local-user-source", "checked_at": "2026-08-27"}
+  ],
+  "scenes": [
+    {
+      "id": "scene-01",
+      "title": "Fixture",
+      "narration": "Synthetic narration.",
+      "fact_refs": ["fixture"],
+      "visuals": [{"source": "placeholder.mp4", "start": 0, "duration": 1}],
+      "captions": [{"start": 0, "end": 0.8, "text": "Synthetic narration."}],
+      "overlay": "none",
+      "base_scale": 1,
+      "transform_origin": "50% 50%",
+      "masks": []
+    }
+  ]
+}
